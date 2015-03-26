@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F5A6711AC49DFE006EE93A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5A6701AC49DFE006EE93A /* AppDelegate.swift */; };
+		04F5A6731AC49DFE006EE93A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5A6721AC49DFE006EE93A /* ViewController.swift */; };
+		04F5A6761AC49DFE006EE93A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F5A6741AC49DFE006EE93A /* Main.storyboard */; };
+		04F5A6781AC49DFE006EE93A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F5A6771AC49DFE006EE93A /* Images.xcassets */; };
+		04F5A67B1AC49DFE006EE93A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F5A6791AC49DFE006EE93A /* LaunchScreen.xib */; };
+		04F5A6871AC49DFE006EE93A /* clozetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5A6861AC49DFE006EE93A /* clozetTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F5A6811AC49DFE006EE93A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F5A6631AC49DFE006EE93A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F5A66A1AC49DFE006EE93A;
+			remoteInfo = clozet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F5A66B1AC49DFE006EE93A /* clozet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clozet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F5A66F1AC49DFE006EE93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F5A6701AC49DFE006EE93A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04F5A6721AC49DFE006EE93A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04F5A6751AC49DFE006EE93A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F5A6771AC49DFE006EE93A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04F5A67A1AC49DFE006EE93A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04F5A6801AC49DFE006EE93A /* clozetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clozetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F5A6851AC49DFE006EE93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F5A6861AC49DFE006EE93A /* clozetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clozetTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F5A6681AC49DFE006EE93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F5A67D1AC49DFE006EE93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F5A6621AC49DFE006EE93A = {
+			isa = PBXGroup;
+			children = (
+				04F5A66D1AC49DFE006EE93A /* clozet */,
+				04F5A6831AC49DFE006EE93A /* clozetTests */,
+				04F5A66C1AC49DFE006EE93A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F5A66C1AC49DFE006EE93A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F5A66B1AC49DFE006EE93A /* clozet.app */,
+				04F5A6801AC49DFE006EE93A /* clozetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F5A66D1AC49DFE006EE93A /* clozet */ = {
+			isa = PBXGroup;
+			children = (
+				04F5A6701AC49DFE006EE93A /* AppDelegate.swift */,
+				04F5A6721AC49DFE006EE93A /* ViewController.swift */,
+				04F5A6741AC49DFE006EE93A /* Main.storyboard */,
+				04F5A6771AC49DFE006EE93A /* Images.xcassets */,
+				04F5A6791AC49DFE006EE93A /* LaunchScreen.xib */,
+				04F5A66E1AC49DFE006EE93A /* Supporting Files */,
+			);
+			path = clozet;
+			sourceTree = "<group>";
+		};
+		04F5A66E1AC49DFE006EE93A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F5A66F1AC49DFE006EE93A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04F5A6831AC49DFE006EE93A /* clozetTests */ = {
+			isa = PBXGroup;
+			children = (
+				04F5A6861AC49DFE006EE93A /* clozetTests.swift */,
+				04F5A6841AC49DFE006EE93A /* Supporting Files */,
+			);
+			path = clozetTests;
+			sourceTree = "<group>";
+		};
+		04F5A6841AC49DFE006EE93A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F5A6851AC49DFE006EE93A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F5A66A1AC49DFE006EE93A /* clozet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F5A68A1AC49DFE006EE93A /* Build configuration list for PBXNativeTarget "clozet" */;
+			buildPhases = (
+				04F5A6671AC49DFE006EE93A /* Sources */,
+				04F5A6681AC49DFE006EE93A /* Frameworks */,
+				04F5A6691AC49DFE006EE93A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clozet;
+			productName = clozet;
+			productReference = 04F5A66B1AC49DFE006EE93A /* clozet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04F5A67F1AC49DFE006EE93A /* clozetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F5A68D1AC49DFE006EE93A /* Build configuration list for PBXNativeTarget "clozetTests" */;
+			buildPhases = (
+				04F5A67C1AC49DFE006EE93A /* Sources */,
+				04F5A67D1AC49DFE006EE93A /* Frameworks */,
+				04F5A67E1AC49DFE006EE93A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F5A6821AC49DFE006EE93A /* PBXTargetDependency */,
+			);
+			name = clozetTests;
+			productName = clozetTests;
+			productReference = 04F5A6801AC49DFE006EE93A /* clozetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F5A6631AC49DFE006EE93A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Mohamed Said";
+				TargetAttributes = {
+					04F5A66A1AC49DFE006EE93A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					04F5A67F1AC49DFE006EE93A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 04F5A66A1AC49DFE006EE93A;
+					};
+				};
+			};
+			buildConfigurationList = 04F5A6661AC49DFE006EE93A /* Build configuration list for PBXProject "clozet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F5A6621AC49DFE006EE93A;
+			productRefGroup = 04F5A66C1AC49DFE006EE93A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F5A66A1AC49DFE006EE93A /* clozet */,
+				04F5A67F1AC49DFE006EE93A /* clozetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F5A6691AC49DFE006EE93A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F5A6761AC49DFE006EE93A /* Main.storyboard in Resources */,
+				04F5A67B1AC49DFE006EE93A /* LaunchScreen.xib in Resources */,
+				04F5A6781AC49DFE006EE93A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F5A67E1AC49DFE006EE93A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F5A6671AC49DFE006EE93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F5A6731AC49DFE006EE93A /* ViewController.swift in Sources */,
+				04F5A6711AC49DFE006EE93A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F5A67C1AC49DFE006EE93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F5A6871AC49DFE006EE93A /* clozetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F5A6821AC49DFE006EE93A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F5A66A1AC49DFE006EE93A /* clozet */;
+			targetProxy = 04F5A6811AC49DFE006EE93A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04F5A6741AC49DFE006EE93A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F5A6751AC49DFE006EE93A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04F5A6791AC49DFE006EE93A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F5A67A1AC49DFE006EE93A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F5A6881AC49DFE006EE93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04F5A6891AC49DFE006EE93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F5A68B1AC49DFE006EE93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = clozet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04F5A68C1AC49DFE006EE93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = clozet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04F5A68E1AC49DFE006EE93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = clozetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clozet.app/clozet";
+			};
+			name = Debug;
+		};
+		04F5A68F1AC49DFE006EE93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = clozetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clozet.app/clozet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F5A6661AC49DFE006EE93A /* Build configuration list for PBXProject "clozet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F5A6881AC49DFE006EE93A /* Debug */,
+				04F5A6891AC49DFE006EE93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F5A68A1AC49DFE006EE93A /* Build configuration list for PBXNativeTarget "clozet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F5A68B1AC49DFE006EE93A /* Debug */,
+				04F5A68C1AC49DFE006EE93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04F5A68D1AC49DFE006EE93A /* Build configuration list for PBXNativeTarget "clozetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F5A68E1AC49DFE006EE93A /* Debug */,
+				04F5A68F1AC49DFE006EE93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F5A6631AC49DFE006EE93A /* Project object */;
+}

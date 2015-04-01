@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0413F6681AC57AB900759F66 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413F6671AC57AB900759F66 /* TabBarController.swift */; };
+		0413F66A1AC836B700759F66 /* ListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0413F6691AC836B700759F66 /* ListViewCell.xib */; };
+		0413F66C1AC8385500759F66 /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413F66B1AC8385500759F66 /* ListViewCell.swift */; };
+		0413F66F1AC8467500759F66 /* RightSideMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0413F66E1AC8467500759F66 /* RightSideMenu.xib */; };
+		0413F6711AC8835F00759F66 /* ListScreenPlusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413F6701AC8835F00759F66 /* ListScreenPlusButton.swift */; };
+		0413F6741AC8934200759F66 /* RightSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413F6731AC8934200759F66 /* RightSideMenu.swift */; };
+		0413F6761AC894F400759F66 /* SideMenuItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0413F6751AC894F400759F66 /* SideMenuItem.xib */; };
+		04BC32D41AC9E3C70016E349 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC32D31AC9E3C70016E349 /* MapViewController.swift */; };
+		04BC32D61AC9E4AB0016E349 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BC32D51AC9E4AB0016E349 /* MapKit.framework */; };
 		04F5A6711AC49DFE006EE93A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5A6701AC49DFE006EE93A /* AppDelegate.swift */; };
-		04F5A6731AC49DFE006EE93A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5A6721AC49DFE006EE93A /* ViewController.swift */; };
+		04F5A6731AC49DFE006EE93A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5A6721AC49DFE006EE93A /* LoginViewController.swift */; };
 		04F5A6761AC49DFE006EE93A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F5A6741AC49DFE006EE93A /* Main.storyboard */; };
 		04F5A6781AC49DFE006EE93A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F5A6771AC49DFE006EE93A /* Images.xcassets */; };
-		04F5A67B1AC49DFE006EE93A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F5A6791AC49DFE006EE93A /* LaunchScreen.xib */; };
 		04F5A6871AC49DFE006EE93A /* clozetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5A6861AC49DFE006EE93A /* clozetTests.swift */; };
+		04F5A6911AC4B11F006EE93A /* loginScreenTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5A6901AC4B11F006EE93A /* loginScreenTextFields.swift */; };
+		04F5A6981AC4BB28006EE93A /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5A6971AC4BB28006EE93A /* CustomSegue.swift */; };
+		04F5A69C1AC57933006EE93A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5A69B1AC57933006EE93A /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +37,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0413F6671AC57AB900759F66 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		0413F6691AC836B700759F66 /* ListViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewCell.xib; sourceTree = "<group>"; };
+		0413F66B1AC8385500759F66 /* ListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
+		0413F66E1AC8467500759F66 /* RightSideMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightSideMenu.xib; sourceTree = "<group>"; };
+		0413F6701AC8835F00759F66 /* ListScreenPlusButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListScreenPlusButton.swift; sourceTree = "<group>"; };
+		0413F6731AC8934200759F66 /* RightSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightSideMenu.swift; sourceTree = "<group>"; };
+		0413F6751AC894F400759F66 /* SideMenuItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuItem.xib; sourceTree = "<group>"; };
+		04BC32D31AC9E3C70016E349 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		04BC32D51AC9E4AB0016E349 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		04F5A66B1AC49DFE006EE93A /* clozet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clozet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F5A66F1AC49DFE006EE93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F5A6701AC49DFE006EE93A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04F5A6721AC49DFE006EE93A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04F5A6721AC49DFE006EE93A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		04F5A6751AC49DFE006EE93A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04F5A6771AC49DFE006EE93A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		04F5A67A1AC49DFE006EE93A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		04F5A6801AC49DFE006EE93A /* clozetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clozetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F5A6851AC49DFE006EE93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F5A6861AC49DFE006EE93A /* clozetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clozetTests.swift; sourceTree = "<group>"; };
+		04F5A6901AC4B11F006EE93A /* loginScreenTextFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginScreenTextFields.swift; sourceTree = "<group>"; };
+		04F5A6971AC4BB28006EE93A /* CustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+		04F5A69B1AC57933006EE93A /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BC32D61AC9E4AB0016E349 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +79,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0413F66D1AC8385E00759F66 /* ListViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0413F66B1AC8385500759F66 /* ListViewCell.swift */,
+				0413F6691AC836B700759F66 /* ListViewCell.xib */,
+			);
+			name = ListViewCell;
+			sourceTree = "<group>";
+		};
+		0413F6721AC8928600759F66 /* RightSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0413F6751AC894F400759F66 /* SideMenuItem.xib */,
+				0413F66E1AC8467500759F66 /* RightSideMenu.xib */,
+				0413F6731AC8934200759F66 /* RightSideMenu.swift */,
+			);
+			name = RightSideMenu;
+			sourceTree = "<group>";
+		};
 		04F5A6621AC49DFE006EE93A = {
 			isa = PBXGroup;
 			children = (
+				04BC32D51AC9E4AB0016E349 /* MapKit.framework */,
 				04F5A66D1AC49DFE006EE93A /* clozet */,
 				04F5A6831AC49DFE006EE93A /* clozetTests */,
 				04F5A66C1AC49DFE006EE93A /* Products */,
@@ -78,10 +121,16 @@
 			isa = PBXGroup;
 			children = (
 				04F5A6701AC49DFE006EE93A /* AppDelegate.swift */,
-				04F5A6721AC49DFE006EE93A /* ViewController.swift */,
+				04F5A6721AC49DFE006EE93A /* LoginViewController.swift */,
+				0413F6671AC57AB900759F66 /* TabBarController.swift */,
 				04F5A6741AC49DFE006EE93A /* Main.storyboard */,
+				04BC32D31AC9E3C70016E349 /* MapViewController.swift */,
+				04F5A69B1AC57933006EE93A /* ListViewController.swift */,
+				0413F66D1AC8385E00759F66 /* ListViewCell */,
+				04F5A6971AC4BB28006EE93A /* CustomSegue.swift */,
+				0413F6721AC8928600759F66 /* RightSideMenu */,
+				04F5A6921AC4B128006EE93A /* UISubClasses */,
 				04F5A6771AC49DFE006EE93A /* Images.xcassets */,
-				04F5A6791AC49DFE006EE93A /* LaunchScreen.xib */,
 				04F5A66E1AC49DFE006EE93A /* Supporting Files */,
 			);
 			path = clozet;
@@ -110,6 +159,15 @@
 				04F5A6851AC49DFE006EE93A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04F5A6921AC4B128006EE93A /* UISubClasses */ = {
+			isa = PBXGroup;
+			children = (
+				04F5A6901AC4B11F006EE93A /* loginScreenTextFields.swift */,
+				0413F6701AC8835F00759F66 /* ListScreenPlusButton.swift */,
+			);
+			name = UISubClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,8 +251,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F5A6761AC49DFE006EE93A /* Main.storyboard in Resources */,
-				04F5A67B1AC49DFE006EE93A /* LaunchScreen.xib in Resources */,
 				04F5A6781AC49DFE006EE93A /* Images.xcassets in Resources */,
+				0413F66F1AC8467500759F66 /* RightSideMenu.xib in Resources */,
+				0413F66A1AC836B700759F66 /* ListViewCell.xib in Resources */,
+				0413F6761AC894F400759F66 /* SideMenuItem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +272,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F5A6731AC49DFE006EE93A /* ViewController.swift in Sources */,
+				04F5A6731AC49DFE006EE93A /* LoginViewController.swift in Sources */,
+				0413F6711AC8835F00759F66 /* ListScreenPlusButton.swift in Sources */,
 				04F5A6711AC49DFE006EE93A /* AppDelegate.swift in Sources */,
+				04BC32D41AC9E3C70016E349 /* MapViewController.swift in Sources */,
+				04F5A69C1AC57933006EE93A /* ListViewController.swift in Sources */,
+				0413F6681AC57AB900759F66 /* TabBarController.swift in Sources */,
+				04F5A6911AC4B11F006EE93A /* loginScreenTextFields.swift in Sources */,
+				04F5A6981AC4BB28006EE93A /* CustomSegue.swift in Sources */,
+				0413F66C1AC8385500759F66 /* ListViewCell.swift in Sources */,
+				0413F6741AC8934200759F66 /* RightSideMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,14 +310,6 @@
 				04F5A6751AC49DFE006EE93A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		04F5A6791AC49DFE006EE93A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04F5A67A1AC49DFE006EE93A /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -405,6 +465,7 @@
 				04F5A68C1AC49DFE006EE93A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04F5A68D1AC49DFE006EE93A /* Build configuration list for PBXNativeTarget "clozetTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +474,7 @@
 				04F5A68F1AC49DFE006EE93A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

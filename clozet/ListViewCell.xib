@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ListViewCell" id="mYo-eP-m86" customClass="ListViewCell" customModule="clozet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="311" height="110"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mYo-eP-m86" id="fCG-09-lqy">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1zR-0I-VP4">
+                        <rect key="frame" x="120" y="8" width="138" height="93.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have to assign number of Lines" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Eq-ng-gu3">
+                                <rect key="frame" x="0.0" y="0.0" width="138" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ZTq-9i-86L"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.21960784310000001" green="0.25882352939999997" blue="0.38431372549999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have to assign number of Lines" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Cc-Ci-qsY">
+                                <rect key="frame" x="0.0" y="53" width="138" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="dW0-bd-uaJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.96078431372549022" green="0.61568627450980395" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="3Cc-Ci-qsY" firstAttribute="leading" secondItem="1zR-0I-VP4" secondAttribute="leading" id="3GP-kR-Vcc"/>
+                            <constraint firstAttribute="bottom" secondItem="3Cc-Ci-qsY" secondAttribute="bottom" id="9D2-13-gE9"/>
+                            <constraint firstAttribute="trailing" secondItem="3Eq-ng-gu3" secondAttribute="trailing" id="PaA-Ug-jz2"/>
+                            <constraint firstAttribute="trailing" secondItem="3Cc-Ci-qsY" secondAttribute="trailing" id="UKm-M2-BRY"/>
+                            <constraint firstItem="3Eq-ng-gu3" firstAttribute="leading" secondItem="1zR-0I-VP4" secondAttribute="leading" id="iu4-8g-s59"/>
+                            <constraint firstItem="3Eq-ng-gu3" firstAttribute="top" secondItem="1zR-0I-VP4" secondAttribute="top" id="voa-kY-xpB"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashBG" translatesAutoresizingMaskIntoConstraints="NO" id="fIL-kA-ty4">
+                        <rect key="frame" x="0.0" y="0.0" width="90" height="109"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="t4m-Tb-7qn"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnB-it-h05" customClass="ListScreenPlusButton" customModule="clozet" customModuleProvider="target">
+                        <rect key="frame" x="70" y="35" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="AOZ-zh-3dH"/>
+                            <constraint firstAttribute="height" constant="40" id="dQ1-m8-8FJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                        <inset key="contentEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="+">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fIL-kA-ty4" firstAttribute="top" secondItem="fCG-09-lqy" secondAttribute="top" id="Bnt-XI-cfl"/>
+                    <constraint firstItem="dnB-it-h05" firstAttribute="leading" secondItem="fCG-09-lqy" secondAttribute="leading" constant="70" id="Jl8-yN-0qV"/>
+                    <constraint firstAttribute="bottom" secondItem="fIL-kA-ty4" secondAttribute="bottom" constant="0.5" id="NnL-TP-8ym"/>
+                    <constraint firstItem="1zR-0I-VP4" firstAttribute="leading" secondItem="dnB-it-h05" secondAttribute="trailing" constant="10" id="S0v-i0-TB2"/>
+                    <constraint firstItem="1zR-0I-VP4" firstAttribute="top" secondItem="fCG-09-lqy" secondAttribute="topMargin" id="Y24-1T-lMh"/>
+                    <constraint firstItem="1zR-0I-VP4" firstAttribute="bottom" secondItem="fCG-09-lqy" secondAttribute="bottomMargin" id="ZH0-OH-A04"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="1zR-0I-VP4" secondAttribute="trailing" constant="45" id="hNO-SV-1Rh"/>
+                    <constraint firstItem="fIL-kA-ty4" firstAttribute="leading" secondItem="fCG-09-lqy" secondAttribute="leading" id="tPS-XK-ZWX"/>
+                    <constraint firstAttribute="centerY" secondItem="dnB-it-h05" secondAttribute="centerY" id="wqB-bE-Eul"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="itemImage" destination="fIL-kA-ty4" id="Yfp-1s-RQM"/>
+                <outlet property="itemInfoLabel" destination="3Cc-Ci-qsY" id="0pz-Nt-owy"/>
+                <outlet property="itemPlusButton" destination="dnB-it-h05" id="6qa-38-9zz"/>
+                <outlet property="itemTitleLabel" destination="3Eq-ng-gu3" id="e3d-E1-1hQ"/>
+            </connections>
+            <point key="canvasLocation" x="216.5" y="224"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="splashBG" width="640" height="1136"/>
+    </resources>
+</document>
